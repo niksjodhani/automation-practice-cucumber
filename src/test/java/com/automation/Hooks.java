@@ -11,7 +11,7 @@ import static com.automation.drivermanager.ManageDriver.driver;
 
 public class Hooks extends Utility {
 
- @After
+ @Before
     public void setup() {
         selectBrowser(PropertyReader.getInstance().getProperty("browser"));
 
